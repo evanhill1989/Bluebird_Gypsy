@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.material-icons-outlined {
+	font-size: 1rem;
+	font-family: 'Material Icons';
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search{
+
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width:50%;
+    height: auto;
+    
+ 
+}
+
+nav .material-icons-outlined{
+    flex-basis: 10%;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:1em;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: gray;
+}
